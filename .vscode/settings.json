@@ -1,0 +1,15 @@
+{
+    "editor.codeActionsOnSave": null,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "go.formatTool": "goimports",
+    "go.testOnSave": true,
+    "go.lintOnSave": "package",
+    "go.testFlags": ["-v"],
+    "go.autocompleteUnimportedPackages": true,
+    
+}
