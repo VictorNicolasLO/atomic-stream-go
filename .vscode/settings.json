@@ -3,10 +3,10 @@
     "[go]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
+            "source.organizeImports": false
         },
     },
-    "go.formatTool": "goimports",
+    "go.formatTool": "gofmt",
     "go.testOnSave": true,
     "go.lintOnSave": "package",
     "go.testFlags": ["-v"],

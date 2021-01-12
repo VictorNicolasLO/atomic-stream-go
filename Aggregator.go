@@ -15,7 +15,7 @@ func (aggregator Aggregator) Start() {
 }
 
 // NewAggregator creates an aggregator instance with the most common options
-func NewAggregator(model, brokers []string) {
+func NewAggregator(modelConstructor func() interface{}, brokers []string) {
 	fmt.Print("Creating Aggregator")
 
 }
